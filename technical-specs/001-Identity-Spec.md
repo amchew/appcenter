@@ -61,7 +61,7 @@ For all the use cases below, app developers need to have an active Azure subscri
 
 ### User scenarios
 
-##### 1. As an app developer, I can provision an Identity service (i.e. Azure AD B2C) for my app.
+#### 1. As an app developer, I can provision an Identity service (i.e. Azure AD B2C) for my app.
 
 User experience: 
 
@@ -79,9 +79,9 @@ User experience:
   - Use cases for Identity integration with other App Center services 
 - Lupita lands on the “Getting Started” page where she is taken through sequential steps on how to integrate App Center’s Identity SDK with her app
 
-    ![Designs for "As an app developer, I can provision an Identity service (i.e. Azure AD B2C) for my app"](~/technical-specs/images/scenario1.PNG)
+    ![Designs for "As an app developer, I can provision an Identity service (i.e. Azure AD B2C) for my app"](~/technical-specs/images/scenario1.png)
 
-##### 2. As an app developer, I can connect my app to an existing Identity service.
+#### 2. As an app developer, I can connect my app to an existing Identity service.
 
 User experience:
 
@@ -91,9 +91,9 @@ User experience:
   - He is also given the option to “Create a new subscription” or “Create a new Identity tenant”.
 - Helmut lands on the “Getting Started” page where he is taken through sequential steps on how to integrate App Center’s Identity SDK with his app.
 
-    ![Designs for "As an app developer, I can connect my app to an existing Identity service"](~/technical-specs/images/scenario2.PNG)
+    ![Designs for "As an app developer, I can connect my app to an existing Identity service"](~/technical-specs/images/scenario2.png)
 
-##### 3. As an app developer, I am able to have a delightful App Center Identity SDK UI experience. 
+#### 3. As an app developer, I am able to have a delightful App Center Identity SDK UI experience. 
 
 User Experience: 
 
@@ -105,9 +105,9 @@ User Experience:
   - The user’s details (name, username, provider) are logged in App Center’s Identity “User” tab 
 - The JSON web token (JWT) (and optional refresh token) is passed back from the authorization server (Google, Facebook, or Microsoft) to App Center.  
 
-    ![Designs for "As an app developer, I am able to have a delightful App Center Identity SDK UI experience"](~/technical-specs/images/scenario3.PNG)
+    ![Designs for "As an app developer, I am able to have a delightful App Center Identity SDK UI experience"](~/technical-specs/images/scenario3.png)
 
-##### 4. As an app developer, I can set up as my identity providers Google, Facebook, Microsoft, and email/password. 
+#### 4. As an app developer, I can set up as my identity providers Google, Facebook, Microsoft, and email/password. 
 
 User Experience: 
 
@@ -115,9 +115,9 @@ User Experience:
 - He goes to the App Center Identity service, and clicks on the tab “Identity Providers”, and is presented with the option to configure email/password, or third-party identity providers Google, Facebook, or Microsoft.  
 - He chooses to configure Facebook as an Identity Provider. He clicks on the row “Facebook” and is prompted to enter his “Client ID” and “Client Secret”, and clicks “Done” when completed. 
 
-    ![Designs for "As an app developer, I can set up as my identity providers Google, Facebook, Microsoft, and email/password."](~/technical-specs/images/scenario4.PNG)
+    ![Designs for "As an app developer, I can set up as my identity providers Google, Facebook, Microsoft, and email/password."](~/technical-specs/images/scenario4.png)
 
-##### 5. As an app developer, I can set up and edit the user flows for my identity provider.
+#### 5. As an app developer, I can set up and edit the user flows for my identity provider.
 
 User Experience: 
 - Sofia is app developer who wants to configure a sign in and sign up user experience for her app users.  
@@ -129,9 +129,9 @@ User Experience:
   - If she has email/password set up, there will be an additional box for her to toggle her settings for “Password complexity”. 
   - She will have the option to configure the “Advanced settings” in the Azure portal.
 
-    ![Designs for "As an app developer, I can set up and edit the user flows for my identity provider."](~/technical-specs/images/scenario5.PNG)
+    ![Designs for "As an app developer, I can set up and edit the user flows for my identity provider."](~/technical-specs/images/scenario5.png)
 
-##### 6. As an app developer, I can see a list and search for the app users authenticated to the app.
+#### 6. As an app developer, I can see a list and search for the app users authenticated to the app.
 
 User Experience: 
 
@@ -139,9 +139,9 @@ User Experience:
 - On the main page under “Users”, I will be able to search for the users based on email, and first name and last name.
 - When I click on each of the users, I see their basic profile. To have more granular control over the editing of the users, I am directed to Azure.
 
-##### 7. As an app developer, the changes or API calls I make in/to the Azure AD B2C portal is similarly captured in the App Center Identity portal and pushed to the config file of the app. 
+#### 7. As an app developer, the changes or API calls I make in/to the Azure AD B2C portal is similarly captured in the App Center Identity portal and pushed to the config file of the app. 
 
-##### 8. As an app developer, I am able to use my app user’s identity to integrate with other App Center services. 
+#### 8. As an app developer, I am able to use my app user’s identity to integrate with other App Center services. 
 
 We will have integration in the back-end for: 
 - Crashes and analytics events (i.e. Users of the app will be tagged to their crash/analytics data) 
