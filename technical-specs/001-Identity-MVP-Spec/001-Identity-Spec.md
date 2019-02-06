@@ -111,7 +111,7 @@ User Experience:
 
 User Experience: 
 
-- As an app developer, I can see a list of app users who have authenticated to my app or are usres under my Azure AD B2C tenant. If I’d like to have more granular control over the users, I will edit the users in Azure.
+- As an app developer, I can see a list of app users who have authenticated to my app or are users under my Azure AD B2C tenant. If I’d like to have more granular control over the users, I will edit the users in Azure.
 - On the main page under “Users”, I will be able to search for the users based on email, and first name and last name.
 - When I click on each of the users, I see their basic profile. To have more granular control over the editing of the users, I am directed to Azure.
 
